@@ -1,10 +1,10 @@
 <?php
 $AppConfig = array (
 	'db' 					=> array (
-		'host'				=> 'monhost',
-		'user'				=> 'user',
-		'password'			=> 'pmotdepasse',
-		'database'			=> 'basededonnees',
+		'host'				=> 'localhost',
+		'user'				=> 'root',
+		'password'			=> '',
+		'database'			=> 'MYDATABASE',
 	),
 	'page' 		=> array (
 		'ar_title'			=> 'mon travian',
@@ -82,7 +82,7 @@ $AppConfig = array (
 				'testMode'		=> false,
 				'name'			=> 'PayPal',
 				'image'			=> 'paypal_solution_graphic-US.gif',
-				'merchant_id'	=> 'Sokifilou@gmail.com',
+				'merchant_id'	=> '07fortune@gmail.com', // :)
 				'currency'		=> 'EUR' //type USD to make in dollar and EUR to make in euro
 			)
 		)
